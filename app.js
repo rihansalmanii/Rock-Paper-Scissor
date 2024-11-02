@@ -9,3 +9,4 @@ let compScore = 0;
         console.log(choice, choiceId);
     })
  })
+ console.log("Rock Paper Scissor Game using Js");
