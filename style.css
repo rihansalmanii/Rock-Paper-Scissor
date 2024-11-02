@@ -34,26 +34,39 @@ image:active{
     transform: translateX(5px) translateY(5px);
 }
 
-.images {
-    width: 70%;
+.choice {
+    width: auto;
+    border-radius: 40%;
+    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 100px;
 }
 
-.container {
+.choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.parent{
+   
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .score-board {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin-top: 70px;
+    justify-content: space-between;
+    margin-top: 70px;  
+    width: 50vh; 
+    /* background-color: red;  */
+
 }
+
 
 p {
     font-size: 1.6rem;
