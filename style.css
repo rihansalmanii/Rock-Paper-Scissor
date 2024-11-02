@@ -1,96 +1,104 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
-    color: white;
-    background-color: rgb(13, 36, 105);
-    padding: 20px;
+  color: white;
+  background-color: rgb(13, 36, 105);
+  padding: 20px;
 }
 
 img {
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    transform: scale(1);
-    transition: all ease 0.5s;
-    /* border: 4px solid transparent; */
-    box-shadow: 5px 5px 1px  rgb(13, 36, 105);
-    /* Add a transparent border */
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all ease 0.5s;
+  /* border: 4px solid transparent; */
+  box-shadow: 5px 5px 1px rgb(13, 36, 105);
+  /* Add a transparent border */
 }
 
 img:hover {
-    /* border-color: black; */
-    transform: scale(1.1);
-    /* Change border color on hover */
+  /* border-color: black; */
+  transform: scale(1.1);
+  /* Change border color on hover */
 }
-image:active{
-    transform: translateX(5px) translateY(5px);
+image:active {
+  transform: translateX(5px) translateY(5px);
 }
 
 .choice {
-    width: auto;
-    border-radius: 40%;
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 100px;
+  width: auto;
+  border-radius: 40%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
 }
 
 .choices {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:90px;
 }
-.parent{
-   
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.parent {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .score-board {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 70px;  
-    width: 50vh; 
-    /* background-color: red;  */
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+  width: 50vh;
 }
 
-
 p {
-    font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 button {
-    margin-top: 100px;
-    padding: 15px 30px;
-    border: 2px solid black;
-    border-radius: 1rem;
-    color: white;
-    box-shadow: 5px 5px 1px rgb(0, 0, 0);
-    font-size: 20px;
-    background-color:  rgba(35, 66, 160, 0.819);
-    transition: all 0.3s ease;
+  margin-top: 50px;
+  padding: 15px 30px;
+  border: 2px solid black;
+  border-radius: 1rem;
+  color: white;
+  box-shadow: 5px 5px 1px rgb(0, 0, 0);
+  font-size: 20px;
+  background-color: rgba(35, 66, 160, 0.819);
+  transition: all 0.3s ease;
 }
 
 button:hover {
-    border: 2px solid  rgb(13, 36, 105);
-    color:  rgb(13, 36, 105);
-    background-color:  white;
-    box-shadow: 5px 5px 1px  rgb(13, 36, 105);
+  border: 2px solid rgb(13, 36, 105);
+  color: rgb(13, 36, 105);
+  background-color: white;
+  box-shadow: 5px 5px 1px rgb(13, 36, 105);
 }
-button:active{
-    box-shadow: none;
-    transform: translateY(5px) translateX(5px);
+button:active {
+  box-shadow: none;
+  transform: translateY(5px) translateX(5px);
+}
+.message{
+
+  margin-top: 50px;
+  
+}
+.msg{
+  font-size: 2.7em;
+  color: rgb(13, 36, 105);
+}
+.hidden{
+  opacity: 0;;
 }
